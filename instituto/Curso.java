@@ -7,8 +7,10 @@ package instituto;
 import java.util.TreeSet;
 
 /**
- *
- * @author ProfDiurno
+ * Clase que representa un curso académico del instituto.
+ * Gestiona el nombre del curso y la lista de alumnos matriculados.
+ * * @author Rayssa Dantas
+ * @version 1.0
  */
 public class Curso {
 
@@ -34,6 +36,11 @@ public class Curso {
         }
         return s;
     }
+
+    /**
+     * Añade un nuevo alumno a la lista del curso.
+     * * @param p El objeto Persona que representa al alumno que se va a matricular.
+     */
 
     public void aniadirAlumno(Persona p) {
         listaAlumnos.add(p);
